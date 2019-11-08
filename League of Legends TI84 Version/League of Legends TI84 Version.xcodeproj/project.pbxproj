@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01523CBE2375DF5200C6ADF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01523CBD2375DF5200C6ADF6 /* AppDelegate.swift */; };
+		01523CC02375DF5300C6ADF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01523CBF2375DF5300C6ADF6 /* SceneDelegate.swift */; };
+		01523CC22375DF5300C6ADF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01523CC12375DF5300C6ADF6 /* ContentView.swift */; };
+		01523CC42375DF5B00C6ADF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01523CC32375DF5B00C6ADF6 /* Assets.xcassets */; };
+		01523CC72375DF5B00C6ADF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01523CC62375DF5B00C6ADF6 /* Preview Assets.xcassets */; };
+		01523CCA2375DF5B00C6ADF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01523CC82375DF5B00C6ADF6 /* LaunchScreen.storyboard */; };
+		01523CD52375DF5C00C6ADF6 /* League_of_Legends_TI84_VersionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01523CD42375DF5C00C6ADF6 /* League_of_Legends_TI84_VersionTests.swift */; };
+		01523CE02375DF5C00C6ADF6 /* League_of_Legends_TI84_VersionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01523CDF2375DF5C00C6ADF6 /* League_of_Legends_TI84_VersionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01523CD12375DF5C00C6ADF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01523CB22375DF5200C6ADF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01523CB92375DF5200C6ADF6;
+			remoteInfo = "League of Legends TI84 Version";
+		};
+		01523CDC2375DF5C00C6ADF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01523CB22375DF5200C6ADF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01523CB92375DF5200C6ADF6;
+			remoteInfo = "League of Legends TI84 Version";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01523CBA2375DF5200C6ADF6 /* League of Legends TI84 Version.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "League of Legends TI84 Version.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01523CBD2375DF5200C6ADF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01523CBF2375DF5300C6ADF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		01523CC12375DF5300C6ADF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01523CC32375DF5B00C6ADF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01523CC62375DF5B00C6ADF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01523CC92375DF5B00C6ADF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01523CCB2375DF5B00C6ADF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01523CD02375DF5C00C6ADF6 /* League of Legends TI84 VersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "League of Legends TI84 VersionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01523CD42375DF5C00C6ADF6 /* League_of_Legends_TI84_VersionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League_of_Legends_TI84_VersionTests.swift; sourceTree = "<group>"; };
+		01523CD62375DF5C00C6ADF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01523CDB2375DF5C00C6ADF6 /* League of Legends TI84 VersionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "League of Legends TI84 VersionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01523CDF2375DF5C00C6ADF6 /* League_of_Legends_TI84_VersionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League_of_Legends_TI84_VersionUITests.swift; sourceTree = "<group>"; };
+		01523CE12375DF5C00C6ADF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01523CB72375DF5200C6ADF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01523CCD2375DF5C00C6ADF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01523CD82375DF5C00C6ADF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01523CB12375DF5200C6ADF6 = {
+			isa = PBXGroup;
+			children = (
+				01523CBC2375DF5200C6ADF6 /* League of Legends TI84 Version */,
+				01523CD32375DF5C00C6ADF6 /* League of Legends TI84 VersionTests */,
+				01523CDE2375DF5C00C6ADF6 /* League of Legends TI84 VersionUITests */,
+				01523CBB2375DF5200C6ADF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01523CBB2375DF5200C6ADF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01523CBA2375DF5200C6ADF6 /* League of Legends TI84 Version.app */,
+				01523CD02375DF5C00C6ADF6 /* League of Legends TI84 VersionTests.xctest */,
+				01523CDB2375DF5C00C6ADF6 /* League of Legends TI84 VersionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01523CBC2375DF5200C6ADF6 /* League of Legends TI84 Version */ = {
+			isa = PBXGroup;
+			children = (
+				01523CBD2375DF5200C6ADF6 /* AppDelegate.swift */,
+				01523CBF2375DF5300C6ADF6 /* SceneDelegate.swift */,
+				01523CC12375DF5300C6ADF6 /* ContentView.swift */,
+				01523CC32375DF5B00C6ADF6 /* Assets.xcassets */,
+				01523CC82375DF5B00C6ADF6 /* LaunchScreen.storyboard */,
+				01523CCB2375DF5B00C6ADF6 /* Info.plist */,
+				01523CC52375DF5B00C6ADF6 /* Preview Content */,
+			);
+			path = "League of Legends TI84 Version";
+			sourceTree = "<group>";
+		};
+		01523CC52375DF5B00C6ADF6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				01523CC62375DF5B00C6ADF6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01523CD32375DF5C00C6ADF6 /* League of Legends TI84 VersionTests */ = {
+			isa = PBXGroup;
+			children = (
+				01523CD42375DF5C00C6ADF6 /* League_of_Legends_TI84_VersionTests.swift */,
+				01523CD62375DF5C00C6ADF6 /* Info.plist */,
+			);
+			path = "League of Legends TI84 VersionTests";
+			sourceTree = "<group>";
+		};
+		01523CDE2375DF5C00C6ADF6 /* League of Legends TI84 VersionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01523CDF2375DF5C00C6ADF6 /* League_of_Legends_TI84_VersionUITests.swift */,
+				01523CE12375DF5C00C6ADF6 /* Info.plist */,
+			);
+			path = "League of Legends TI84 VersionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01523CB92375DF5200C6ADF6 /* League of Legends TI84 Version */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01523CE42375DF5C00C6ADF6 /* Build configuration list for PBXNativeTarget "League of Legends TI84 Version" */;
+			buildPhases = (
+				01523CB62375DF5200C6ADF6 /* Sources */,
+				01523CB72375DF5200C6ADF6 /* Frameworks */,
+				01523CB82375DF5200C6ADF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "League of Legends TI84 Version";
+			productName = "League of Legends TI84 Version";
+			productReference = 01523CBA2375DF5200C6ADF6 /* League of Legends TI84 Version.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01523CCF2375DF5C00C6ADF6 /* League of Legends TI84 VersionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01523CE72375DF5C00C6ADF6 /* Build configuration list for PBXNativeTarget "League of Legends TI84 VersionTests" */;
+			buildPhases = (
+				01523CCC2375DF5C00C6ADF6 /* Sources */,
+				01523CCD2375DF5C00C6ADF6 /* Frameworks */,
+				01523CCE2375DF5C00C6ADF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01523CD22375DF5C00C6ADF6 /* PBXTargetDependency */,
+			);
+			name = "League of Legends TI84 VersionTests";
+			productName = "League of Legends TI84 VersionTests";
+			productReference = 01523CD02375DF5C00C6ADF6 /* League of Legends TI84 VersionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01523CDA2375DF5C00C6ADF6 /* League of Legends TI84 VersionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01523CEA2375DF5C00C6ADF6 /* Build configuration list for PBXNativeTarget "League of Legends TI84 VersionUITests" */;
+			buildPhases = (
+				01523CD72375DF5C00C6ADF6 /* Sources */,
+				01523CD82375DF5C00C6ADF6 /* Frameworks */,
+				01523CD92375DF5C00C6ADF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01523CDD2375DF5C00C6ADF6 /* PBXTargetDependency */,
+			);
+			name = "League of Legends TI84 VersionUITests";
+			productName = "League of Legends TI84 VersionUITests";
+			productReference = 01523CDB2375DF5C00C6ADF6 /* League of Legends TI84 VersionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01523CB22375DF5200C6ADF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Senza;
+				TargetAttributes = {
+					01523CB92375DF5200C6ADF6 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					01523CCF2375DF5C00C6ADF6 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 01523CB92375DF5200C6ADF6;
+					};
+					01523CDA2375DF5C00C6ADF6 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 01523CB92375DF5200C6ADF6;
+					};
+				};
+			};
+			buildConfigurationList = 01523CB52375DF5200C6ADF6 /* Build configuration list for PBXProject "League of Legends TI84 Version" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01523CB12375DF5200C6ADF6;
+			productRefGroup = 01523CBB2375DF5200C6ADF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01523CB92375DF5200C6ADF6 /* League of Legends TI84 Version */,
+				01523CCF2375DF5C00C6ADF6 /* League of Legends TI84 VersionTests */,
+				01523CDA2375DF5C00C6ADF6 /* League of Legends TI84 VersionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01523CB82375DF5200C6ADF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01523CCA2375DF5B00C6ADF6 /* LaunchScreen.storyboard in Resources */,
+				01523CC72375DF5B00C6ADF6 /* Preview Assets.xcassets in Resources */,
+				01523CC42375DF5B00C6ADF6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01523CCE2375DF5C00C6ADF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01523CD92375DF5C00C6ADF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01523CB62375DF5200C6ADF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01523CBE2375DF5200C6ADF6 /* AppDelegate.swift in Sources */,
+				01523CC02375DF5300C6ADF6 /* SceneDelegate.swift in Sources */,
+				01523CC22375DF5300C6ADF6 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01523CCC2375DF5C00C6ADF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01523CD52375DF5C00C6ADF6 /* League_of_Legends_TI84_VersionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01523CD72375DF5C00C6ADF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01523CE02375DF5C00C6ADF6 /* League_of_Legends_TI84_VersionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01523CD22375DF5C00C6ADF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01523CB92375DF5200C6ADF6 /* League of Legends TI84 Version */;
+			targetProxy = 01523CD12375DF5C00C6ADF6 /* PBXContainerItemProxy */;
+		};
+		01523CDD2375DF5C00C6ADF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01523CB92375DF5200C6ADF6 /* League of Legends TI84 Version */;
+			targetProxy = 01523CDC2375DF5C00C6ADF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01523CC82375DF5B00C6ADF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01523CC92375DF5B00C6ADF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01523CE22375DF5C00C6ADF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01523CE32375DF5C00C6ADF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01523CE52375DF5C00C6ADF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"League of Legends TI84 Version/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "League of Legends TI84 Version/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Games.League-of-Legends-TI84-Version";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01523CE62375DF5C00C6ADF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"League of Legends TI84 Version/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "League of Legends TI84 Version/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Games.League-of-Legends-TI84-Version";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01523CE82375DF5C00C6ADF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "League of Legends TI84 VersionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Games.League-of-Legends-TI84-VersionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/League of Legends TI84 Version.app/League of Legends TI84 Version";
+			};
+			name = Debug;
+		};
+		01523CE92375DF5C00C6ADF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "League of Legends TI84 VersionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Games.League-of-Legends-TI84-VersionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/League of Legends TI84 Version.app/League of Legends TI84 Version";
+			};
+			name = Release;
+		};
+		01523CEB2375DF5C00C6ADF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "League of Legends TI84 VersionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Games.League-of-Legends-TI84-VersionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "League of Legends TI84 Version";
+			};
+			name = Debug;
+		};
+		01523CEC2375DF5C00C6ADF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "League of Legends TI84 VersionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Games.League-of-Legends-TI84-VersionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "League of Legends TI84 Version";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01523CB52375DF5200C6ADF6 /* Build configuration list for PBXProject "League of Legends TI84 Version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01523CE22375DF5C00C6ADF6 /* Debug */,
+				01523CE32375DF5C00C6ADF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01523CE42375DF5C00C6ADF6 /* Build configuration list for PBXNativeTarget "League of Legends TI84 Version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01523CE52375DF5C00C6ADF6 /* Debug */,
+				01523CE62375DF5C00C6ADF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01523CE72375DF5C00C6ADF6 /* Build configuration list for PBXNativeTarget "League of Legends TI84 VersionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01523CE82375DF5C00C6ADF6 /* Debug */,
+				01523CE92375DF5C00C6ADF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01523CEA2375DF5C00C6ADF6 /* Build configuration list for PBXNativeTarget "League of Legends TI84 VersionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01523CEB2375DF5C00C6ADF6 /* Debug */,
+				01523CEC2375DF5C00C6ADF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01523CB22375DF5200C6ADF6 /* Project object */;
+}
