@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-
+//hi
 struct ColonyView: View{
     var n: Int
     var body: some View{
