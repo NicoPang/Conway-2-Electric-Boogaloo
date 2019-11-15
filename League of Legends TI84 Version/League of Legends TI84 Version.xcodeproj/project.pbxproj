@@ -100,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				01523CBD2375DF5200C6ADF6 /* AppDelegate.swift */,
-				01727C30237F195800F013D1 /* Models */,
 				01523CBF2375DF5300C6ADF6 /* SceneDelegate.swift */,
 				01523CC12375DF5300C6ADF6 /* ContentView.swift */,
 				01523CC32375DF5B00C6ADF6 /* Assets.xcassets */,
@@ -135,13 +134,6 @@
 				01523CE12375DF5C00C6ADF6 /* Info.plist */,
 			);
 			path = "League of Legends TI84 VersionUITests";
-			sourceTree = "<group>";
-		};
-		01727C30237F195800F013D1 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
