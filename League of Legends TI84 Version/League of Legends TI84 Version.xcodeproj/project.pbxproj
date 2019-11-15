@@ -15,6 +15,7 @@
 		01523CCA2375DF5B00C6ADF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01523CC82375DF5B00C6ADF6 /* LaunchScreen.storyboard */; };
 		01523CD52375DF5C00C6ADF6 /* League_of_Legends_TI84_VersionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01523CD42375DF5C00C6ADF6 /* League_of_Legends_TI84_VersionTests.swift */; };
 		01523CE02375DF5C00C6ADF6 /* League_of_Legends_TI84_VersionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01523CDF2375DF5C00C6ADF6 /* League_of_Legends_TI84_VersionUITests.swift */; };
+		8CEDF10E237F120E00F28638 /* ColonyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEDF10D237F120E00F28638 /* ColonyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		01523CDB2375DF5C00C6ADF6 /* League of Legends TI84 VersionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "League of Legends TI84 VersionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01523CDF2375DF5C00C6ADF6 /* League_of_Legends_TI84_VersionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League_of_Legends_TI84_VersionUITests.swift; sourceTree = "<group>"; };
 		01523CE12375DF5C00C6ADF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CEDF10D237F120E00F28638 /* ColonyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColonyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				01523CBD2375DF5200C6ADF6 /* AppDelegate.swift */,
+				8CEDF10D237F120E00F28638 /* ColonyView.swift */,
 				01523CBF2375DF5300C6ADF6 /* SceneDelegate.swift */,
 				01523CC12375DF5300C6ADF6 /* ContentView.swift */,
 				01523CC32375DF5B00C6ADF6 /* Assets.xcassets */,
@@ -269,6 +272,7 @@
 			files = (
 				01523CBE2375DF5200C6ADF6 /* AppDelegate.swift in Sources */,
 				01523CC02375DF5300C6ADF6 /* SceneDelegate.swift in Sources */,
+				8CEDF10E237F120E00F28638 /* ColonyView.swift in Sources */,
 				01523CC22375DF5300C6ADF6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
